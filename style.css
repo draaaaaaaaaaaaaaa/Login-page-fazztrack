@@ -167,6 +167,10 @@ form {
         text-align: center;
     }
 
+    header p {
+        font-size: 12px;
+    }
+
 
 
 }
