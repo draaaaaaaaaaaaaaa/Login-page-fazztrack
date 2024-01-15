@@ -34,7 +34,7 @@ header img {
 
 header h2 {
     font-size: 26px;
-    
+
     color: #212529;
     text-align: center;
 }
@@ -146,15 +146,27 @@ form {
 
 @media screen and (max-width: 576px) {
 
-    section{
+    section {
         display: flex;
         align-items: start;
     }
 
-    main{
+    main {
         margin-top: 20px;
         border: none;
     }
+
+    header img {
+        height: 24px;
+        margin-bottom: 20px;
+    }
+
+    header h2 {
+        font-size: 22px;
+        color: #212529;
+        text-align: center;
+    }
+
 
 
 }
