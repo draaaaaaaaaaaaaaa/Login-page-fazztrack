@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    border: 2px solid #dee1e5;
+    width: 600px;
+    padding: 38px;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+header img {
+    height: 28px;
+    margin-bottom: 20px;
+}
+
+header h2 {
+    font-size: 26px;
+    
+    color: #212529;
+    text-align: center;
+}
+
+header p {
+    margin-top: 15px;
+    text-align: center;
+    color: #212529;
+}
+
+header p span {
+    color: #ef6807;
+}
+
+form {
+    margin-top: 26px;
+}
+
+
+.email {
+    display: flex;
+    flex-direction: column;
+}
+
+.email input {
+    margin-top: 8px;
+    padding: 8px;
+    border: 2px solid #dee1e5;
+    border-radius: 4px;
+}
+
+.email input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+}
+
+.must {
+    color: #ef6807;
+    margin-right: 3px;
+}
+
+.password {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.password input {
+    margin-top: 8px;
+    padding: 8px;
+    border: 2px solid #dee1e5;
+    border-radius: 4px;
+}
+
+.password input:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+}
+
+.reminder {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.reminder p {
+    color: #2557a7;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.login {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn-masuk {
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #ef6807;
+    color: white;
+    font-weight: bold;
+}
+
+.login p {
+    display: flex;
+    justify-content: center;
+    margin: 18px;
+}
+
+.btn-google {
+    border: 3px solid #dee1e5;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #495057;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+
+    section{
+        display: flex;
+        align-items: start;
+    }
+
+    main{
+        margin-top: 20px;
+        border: none;
+    }
+
+
+}
