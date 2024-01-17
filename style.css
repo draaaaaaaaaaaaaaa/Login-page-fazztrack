@@ -115,6 +115,10 @@ form {
     font-size: 14px;
 }
 
+.check-box{
+    font-size: 14px;
+}
+
 .login {
     margin-top: 24px;
     display: flex;
@@ -220,6 +224,13 @@ form {
     border: 2px solid #dee1e5;
     border-radius: 4px;
 }
+
+.check-box span {
+    color: #2557a7;
+    font-weight: 600;
+}
+
+
 
 
 /* end */
