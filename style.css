@@ -5,6 +5,9 @@
     font-family: sans-serif;
 }
 
+
+/* Index.html */
+
 section {
     background-color: #ffffff;
     display: flex;
@@ -45,8 +48,9 @@ header p {
     color: #212529;
 }
 
-header p span {
+header p span a{
     color: #ef6807;
+    text-decoration: none;
 }
 
 form {
@@ -144,6 +148,83 @@ form {
     align-items: center;
     justify-content: center;
 }
+
+/* end */
+
+
+
+/* regis.html */
+
+.name-regis {
+    display: flex;
+    flex-direction: column;
+}
+
+.name-regis input {
+    margin-top: 8px;
+    padding: 8px;
+    border: 2px solid #dee1e5;
+    border-radius: 4px;
+}
+
+
+
+.email-regis {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.email-regis input {
+    margin-top: 8px;
+    padding: 8px;
+    border: 2px solid #dee1e5;
+    border-radius: 4px;
+}
+
+.noHp-regis {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.noHp-regis input {
+    margin-top: 8px;
+    padding: 8px;
+    border: 2px solid #dee1e5;
+    border-radius: 4px;
+}
+
+.password-regis {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.password-regis input {
+    margin-top: 8px;
+    padding: 8px;
+    border: 2px solid #dee1e5;
+    border-radius: 4px;
+}
+
+.konferm-password-regis {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.konferm-password-regis input {
+    margin-top: 8px;
+    padding: 8px;
+    border: 2px solid #dee1e5;
+    border-radius: 4px;
+}
+
+
+/* end */
+
+
 
 @media screen and (max-width: 576px) {
 
